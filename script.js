@@ -1,3 +1,4 @@
+// skills array
 const skills = [
     "HTML",
     "CSS",
@@ -5,6 +6,8 @@ const skills = [
     "Git",
     "Github"
 ];
+
+//skill functions
 
 const skillsList = document.getElementById("skills-list");
 
@@ -16,6 +19,7 @@ skills.forEach(function(skill) {
     skillsList.appendChild(listItem);
 });
 
+// project array
 const projects = [
     {
         title: "Pet Store",
@@ -28,7 +32,7 @@ const projects = [
         tech: "HTML, CSS, JavaScript"
     }
 ];
-
+// project function
 const projectsContainer = document.getElementById("projects-container");
 projects.forEach(function(project) {
     const projectCard = document.createElement("div");
