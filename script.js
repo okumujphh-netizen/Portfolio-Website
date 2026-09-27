@@ -6,7 +6,7 @@ const skills = [
     "Github"
 ];
 
-const skillslist = document.getElementById("skills-list");
+const skillsList = document.getElementById("skills-list");
 
 skills.forEach(function(skill) {
     const listItem = document.createElement("li");
