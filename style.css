@@ -95,3 +95,10 @@ section h2 {
 #projects-container h3 {
     margin-top: 0;
 }
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    color: #2563eb;
+}
