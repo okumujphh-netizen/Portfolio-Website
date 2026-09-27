@@ -30,3 +30,21 @@ const projects = [
 ];
 
 const projectsContainer = document.getElementById("projects-container");
+projects.forEach(function(project) {
+    const projectCard = document.createElement("div");
+
+    const projectTitle = document.createElement("h3");
+    projectTitle.textContent = project.title;
+
+    const projectDescription = document.createElement("p");
+    projectDescription.textContent = project.description;
+
+    const projectTech = document.createElement("p");
+    projectTech.textContent = `Tech used: ${project.tech}`;
+
+    projectCard.appendChild(projectTitle);
+    projectCard.appendChild(projectDescription);
+    projectCard.appendChild(projectTech);
+
+    projectsContainer.appendChild(projectCard);
+});
