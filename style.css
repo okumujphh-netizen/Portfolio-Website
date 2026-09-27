@@ -45,6 +45,12 @@ nav {
 nav h1 {
     font-size: 1.7rem;
     letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+nav h1:hover {
+    color: #38bdf8;
 }
 
 nav ul {
@@ -53,15 +59,35 @@ nav ul {
     gap: 30px;
 }
 
+nav li {
+    position: relative;
+}
+
 nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 8px 0;
     transition: 0.3s ease;
 }
 
 nav a:hover {
     color: #38bdf8;
+}
+
+/* Animated underline under navigation links */
+
+nav a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #38bdf8;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 
@@ -75,13 +101,35 @@ section {
     padding: 90px 40px;
 }
 
+/* Alternating section backgrounds */
+
+section:nth-of-type(even) {
+    background: #ffffff;
+}
+
+section:nth-of-type(odd) {
+    background: #f8fafc;
+}
+
 section h2 {
     text-align: center;
     font-size: 2.2rem;
     margin-bottom: 45px;
     color: #0f172a;
+    position: relative;
 }
 
+/* Decorative line underneath section headings */
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #38bdf8;
+    margin: 12px auto 0;
+    border-radius: 10px;
+}
 
 /* =========================
    ABOUT SECTION
