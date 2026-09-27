@@ -28,3 +28,5 @@ const projects = [
         tech: "HTML, CSS, JavaScript"
     }
 ];
+
+const projectsContainer = document.getElementById("projects-container");
