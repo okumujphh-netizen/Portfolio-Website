@@ -169,37 +169,38 @@ section h2::after {
 /* =========================
    SKILLS
 ========================= */
-
-#skills {
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
-}
-
 #skills-list {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 18px;
     list-style: none;
+    padding: 0;
+    margin: 0 auto;
 }
 
 #skills-list li {
     background: #0f172a;
     color: white;
-    padding: 12px 22px;
+    padding: 12px 24px;
     border-radius: 30px;
+    font-size: 1rem;
     font-weight: bold;
-    transition: 0.3s ease;
+    border: 2px solid transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
 }
+
+/* Skill hover effect */
 
 #skills-list li:hover {
     background: #38bdf8;
     color: #0f172a;
-    transform: translateY(-3px);
+    transform: translateY(-5px);
+    border-color: #0f172a;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
-
 
 /* =========================
    PROJECTS
