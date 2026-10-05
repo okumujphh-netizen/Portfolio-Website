@@ -1,31 +1,12 @@
-// skills array
-const skills = [
-    "HTML",
-    "CSS",
-    "Javascript",
-    "Git",
-    "Github"
-];
+// PROJECT ARRAY
 
-//skill functions
-
-const skillsList = document.getElementById("skills-list");
-
-skills.forEach(function (skill) {
-    const listItem = document.createElement("li");
-
-    listItem.textContent = skill;
-
-    skillsList.appendChild(listItem);
-});
-
-// project array
 const projects = [
     {
         title: "Pet Store",
         description: "A website for a pet store with information about pets and services.",
         tech: "HTML, CSS, JavaScript"
     },
+
     {
         title: "Akan Name Generator",
         description: "A web application that generates an Akan name based on a person's date of birth.",
@@ -33,16 +14,19 @@ const projects = [
     },
 
     {
-
-        title: "personal portfolio",
+        title: "Personal Portfolio",
         description: "A personal website built to showcase my skills and projects.",
-        technologies: ["HTML", "CSS", "Javascript"]
+        tech: "HTML, CSS, JavaScript"
     }
-
 ];
-// project function
+
+
+// PROJECT FUNCTION
+
 const projectsContainer = document.getElementById("projects-container");
+
 projects.forEach(function (project) {
+
     const projectCard = document.createElement("div");
 
     const projectTitle = document.createElement("h3");
@@ -61,26 +45,33 @@ projects.forEach(function (project) {
     projectsContainer.appendChild(projectCard);
 });
 
+
 // TESTIMONIALS
 
 const testimonials = [
     {
-        text: "John is a dedicated learner who is always willing to improve his skills.",
+        text: "lafeth is a dedicated learner who is always willing to improve his skills.",
         author: "Software Engineering Mentor"
     },
+
     {
-        text: "John approaches his projects with creativity and determination.",
+        text: "lafeth approaches his projects with creativity and determination.",
         author: "Classmate"
     },
+
     {
-        text: "John is passionate about technology and enjoys building useful digital solutions.",
+        text: "lafeth is passionate about technology and enjoys building useful digital solutions.",
         author: "Project Collaborator"
     }
 ];
 
+
+// TESTIMONIAL FUNCTION
+
 const testimonialsContainer = document.getElementById("testimonials-container");
 
 testimonials.forEach(function (testimonial) {
+
     const testimonialCard = document.createElement("div");
     testimonialCard.classList.add("testimonial");
 
@@ -95,5 +86,4 @@ testimonials.forEach(function (testimonial) {
 
     testimonialsContainer.appendChild(testimonialCard);
 });
-
 
