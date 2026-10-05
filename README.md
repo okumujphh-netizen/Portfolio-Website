@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my personal portfolio website built as part of my software engineering learning journey at Moringa School.
+This is my personal portfolio website for Lafeth Ogero built as part of my software engineering learning journey at Moringa School.
 
 The website showcases my background, technical skills, projects, and contact information. JavaScript is used to dynamically display my skills and projects on the webpage.
 
