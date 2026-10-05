@@ -30,7 +30,15 @@ const projects = [
         title: "Akan Name Generator",
         description: "A web application that generates an Akan name based on a person's date of birth.",
         tech: "HTML, CSS, JavaScript"
+    },
+
+    {
+
+        title: "personal portfolio",
+        description: "A personal website built to showcase my skills and projects.",
+        technologies: ["HTML", "CSS", "Javascript"]
     }
+
 ];
 // project function
 const projectsContainer = document.getElementById("projects-container");
@@ -53,7 +61,7 @@ projects.forEach(function (project) {
     projectsContainer.appendChild(projectCard);
 });
 
- // TESTIMONIALS
+// TESTIMONIALS
 
 const testimonials = [
     {
