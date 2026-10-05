@@ -373,3 +373,41 @@ section h2::after {
         text-align: center;
     }
 }
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    width: 300px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.testimonial h3 {
+    font-size: 16px;
+    margin: 0;
+}
