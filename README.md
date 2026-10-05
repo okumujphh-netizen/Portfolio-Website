@@ -82,7 +82,7 @@ Most importantly, I learned how JavaScript can interact with the DOM to dynamica
 
 ## Project Structure
 
-```text
+
 portfolio/
 │
 ├── index.html
@@ -93,4 +93,4 @@ portfolio/
 └── images/
     ├── profile.jpg
     └── background.jpg
-```
+
