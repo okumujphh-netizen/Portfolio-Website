@@ -11,7 +11,7 @@ const skills = [
 
 const skillsList = document.getElementById("skills-list");
 
-skills.forEach(function(skill) {
+skills.forEach(function (skill) {
     const listItem = document.createElement("li");
 
     listItem.textContent = skill;
@@ -34,7 +34,7 @@ const projects = [
 ];
 // project function
 const projectsContainer = document.getElementById("projects-container");
-projects.forEach(function(project) {
+projects.forEach(function (project) {
     const projectCard = document.createElement("div");
 
     const projectTitle = document.createElement("h3");
@@ -52,3 +52,40 @@ projects.forEach(function(project) {
 
     projectsContainer.appendChild(projectCard);
 });
+
+ // TESTIMONIALS
+
+const testimonials = [
+    {
+        text: "John is a dedicated learner who is always willing to improve his skills.",
+        author: "Software Engineering Mentor"
+    },
+    {
+        text: "John approaches his projects with creativity and determination.",
+        author: "Classmate"
+    },
+    {
+        text: "John is passionate about technology and enjoys building useful digital solutions.",
+        author: "Project Collaborator"
+    }
+];
+
+const testimonialsContainer = document.getElementById("testimonials-container");
+
+testimonials.forEach(function (testimonial) {
+    const testimonialCard = document.createElement("div");
+    testimonialCard.classList.add("testimonial");
+
+    const testimonialText = document.createElement("p");
+    testimonialText.textContent = testimonial.text;
+
+    const testimonialAuthor = document.createElement("h3");
+    testimonialAuthor.textContent = `- ${testimonial.author}`;
+
+    testimonialCard.appendChild(testimonialText);
+    testimonialCard.appendChild(testimonialAuthor);
+
+    testimonialsContainer.appendChild(testimonialCard);
+});
+
+
