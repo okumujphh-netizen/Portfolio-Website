@@ -8,9 +8,7 @@ The website showcases my background, technical skills, projects, and contact inf
 
 ## Features
 
-- Personal About Me section
-- Profile image
-- Skills section generated using JavaScript
+
 - Projects section generated using JavaScript
 - Contact information
 - GitHub profile link
@@ -53,7 +51,7 @@ This project helped me practice:
 - `document.getElementById()`
 - `document.createElement()`
 - `textContent`
-- `appendChild()`
+
 - Template literals
 
 ## Project Structure
