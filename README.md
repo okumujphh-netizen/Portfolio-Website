@@ -1,4 +1,4 @@
-# John Okumu - Portfolio Website
+# John Okumu and Eugene Ogero - Portfolio Website
 
 ## Description
 
